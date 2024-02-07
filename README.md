@@ -1,24 +1,14 @@
-### Tratamento de erros da etapa anterior
-errors/AppError.ts
-Alteração na server.ts 
-Alteração na CreateUserUseCase.ts 
-
---Importação/alteração/instalação na server.ts: 
-> npm install express-async-errors
-import "express-async-errors";
-import express, { Response, Request, NextFunction } from 'express';
+### Projeto de Estudo em NodeJS com Prisma
+Pequena aplicação que simula aluguel de filmes com cadastro e listagem das informações de um DB sqlite.
 
 ### Funcionamento 
-Cadastro de nome e email
-Erro ao cadastrar mais de um email semelhante
+Testes pelo terminal e no Insomnia 
+Gerar tables através das migrates 
 
 ### Visualizar DB
 > npx prisma studio 
-Abre na porta 5555
+Tem que ter o Sqlite no PC. 
 
-### Sobre as Rotas
-server.ts
-Pasta routes > index.ts / movie.routes.ts
-CreateMovieController
+
 
 
